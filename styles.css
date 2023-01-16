@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.rotate-25 {
+    transform: rotate(25deg);
+}
+
+.dogimage {
+    position: absolute;
+
+    width: 20rem;
+    height: 40rem;
+    right: 20%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.pawicon{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out; 
+    transition: all .5s ease-in-out;
+}
+.pawicon:hover{
+    transform: rotate(-10deg);
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.downloadbutton {
+    margin: 5% 3% 5% 0;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#features {
+    text-align: center;
+    padding: 10% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.skills {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    padding: 0 5% 3% 0;
+}
+
+col {
+    margin: auto;
+}
+
+.skills:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.presslogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricebutton {
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flexbox;
+}
+
+@media (max-width:1180px) {
+    #title {
+        text-align: center;
+    }
+
+    .dogimage {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+.cta-header {
+    padding-top: 100px;
+    font-weight: 900;
+}
+
+.cta-button {
+    margin: 5% 3% 5% 0;
+}
+
+#footer {
+    text-align: center;
+    padding: 50px 50px 25px;
+}
+
+.socialicon {
+    color: #8f8f8f;
+    padding: 0 9px 10px;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out; 
+    -ms-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out; 
+    transition: all .8s ease-in-out;
+}
+
+.socialicon:hover {
+    color: black;
+}
+
+.copyright {
+    padding: 4px 4px 0;
+}
